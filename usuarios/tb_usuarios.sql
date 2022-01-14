@@ -26,3 +26,5 @@ fyh_actualizacion		DATETIME NULL,
 fyh_eliminacion			DATETIME NULL
 estado					VARCHAR (255) NULL
 );
+
+INSERT INTO `tb_usuarios` (`id`, `nombres`, `ap_paterno`, `ci`, `fecha_nacimiento`, `pais`, `celular`, `codigo_postal`, `foto_perfil`, `email`, `passwordo`, `token`, `cargo`, `extra1`, `extra2`, `extra3`, `user_creacion`, `user_actualizacion`, `user_eliminacion`, `fyh_creacion`, `fyh_actualizacion`, `fyh_eliminacion`, `estado`) VALUES (NULL, 'freddy huanca', 'smith', '5994407', '08/07/1991', 'norway', '73065895', '0000', 'disco.jpg', 'michma@gmail.com', '12345678', NULL, 'administrador', NULL, NULL, NULL, 'freddy chimana.com', NULL, NULL, '2022-01-19 01:35:27', '2022-01-14 01:35:26.000000', '2022-01-14 01:35:26.000000', '1'); 
